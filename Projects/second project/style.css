@@ -1,9 +1,200 @@
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1E1E21;
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+nav h4 {
+    border-radius: 500px;
+    color: white;
+    background: #1E1E21;
+    padding: 5px 18px;
+    margin-right: 50px;
+    font-size: 30px;
+    position: fixed;
+    z-index: 999;
+}
+
+#header {
+    background: white;
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    border-radius: 0 0 30px 30px;
+}
+
+#first {
+    display: flex;
+}
+
+#header #first h1 {
+    font-size: 90px;
+    font-weight: bolder;
+    line-height: 100px;
+    margin-left: 50px;
+}
+
+#bgimg img {
+    z-index: -1;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+
+#second {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#second h5 {
+    font-size: 23px;
+}
+
+#aboute {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 30px 50px;
+    border-bottom: 2px solid black;
+}
+
+#aboute #left {
+    width: 65%;
+    height: 100%;
+    font-size: 70px;
+    line-height: 75px;
+    font-weight: bolder;
+    border-right: 2px solid black;
+    padding: 50px 0;
+}
+
+#aboute #right {
+    width: 35%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#aboute #right h1 {
+    font-size: 40px;
+
+}
+
+#aboute #right i {
+    font-size: 50px;
+}
+
+#what {
+    width: 100%;
+    height: 125%;
+    display: flex;
+    padding: 50px;
+    border-bottom: 2px solid black;
+}
+
+#what #ido {
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid black;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ido i {
+    font-size: 35px;
+    padding-right: 30px;
+}
+
+#ditais #top{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    padding-bottom: 50px;
+    border-bottom: 2px solid black;
+}
+#ditais #top #left{
+    width: 50%;
+    height: 100%;
+    padding: 40px 50px;
+    border-right: 2px solid black;
+}
+#ditais #top #left h1{
+    font-size: 40px;
+}
+#ditais #top #left h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+#ditais #top #right{
+    width: 50%;
+    padding: 40px 50px;
+    height: 100%;
+}
+#ditais #top #right h1{
+    font-size: 40px;
+}
+#ditais #top #right h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#ditais #bottom{
+    display: flex;
+    width: 100%;
+    height: 45%;
+    padding-top: 40px;
+}
+#ditais #bottom #left{
+    width: 50%;
+    height: 100%;
+    padding: 40px 50px;
+    border-right: 2px solid black;
+    
+}
+#ditais #bottom #left h1{
+    font-size: 40px;
+    line-height: 40px;
+}
+#ditais #bottom #left h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+#ditais #bottom #right{
+    width: 50%;
+    padding: 40px 50px;
+    height: 100%;
+}
+#ditais #bottom #right h1{
+    font-size: 40px;
+}
+#ditais #bottom #right h3{
+    font-size: 20px;
+    font-weight: 100;
 }
